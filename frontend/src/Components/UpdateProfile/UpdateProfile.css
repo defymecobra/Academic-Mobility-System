@@ -1,0 +1,71 @@
+.update-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background-color: #101f38;
+    color: #e6e6e6;
+    padding: 20px;
+}
+
+.update-profile-container h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.update-profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #1e3a6b;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.form-group input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    color: #101f38;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #4a90e2;
+}
+
+.update-profile-btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update-profile-btn:hover {
+    background-color: #357abd;
+}

@@ -1,0 +1,89 @@
+.application-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    max-height: 1000px;
+    margin: 30px auto;
+    border-radius: 8px;
+    background: #101f38;
+}
+
+.application-list-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #e6e6e6;
+    margin-bottom: 20px;
+}
+
+.application-list-header,
+.application-list-row {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 10px;
+    width: 100%;
+    padding: 10px 0;
+    color: #e6e6e6;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.application-list-row {
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.application-list-row:hover {
+    background-color: #1e3a6b;
+}
+
+.application-list-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.application-list-icon {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    transition: transform 0.2s ease;
+}
+
+.application-list-icon:hover {
+    transform: scale(1.2);
+}
+
+.status-accepted {
+    color: green;
+    font-weight: 600;
+}
+
+.status-pending {
+    color: orange;
+    font-weight: 600;
+}
+
+.status-rejected {
+    color: red;
+    font-weight: 600;
+}
+
+.application-list-content {
+    width: 100%;
+    overflow-y: auto;
+    margin-top: 10px;
+    max-height: 500px;
+}
+
+.application-list-header p,
+.application-list-row p {
+    margin: 0;
+    padding: 5px;
+    word-wrap: break-word;
+}

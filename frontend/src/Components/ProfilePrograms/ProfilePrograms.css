@@ -1,0 +1,146 @@
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.profile-section {
+    padding: 30px;
+    background-color: #101f38;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.profile-header {
+    font-size: 22px;
+    font-weight: 600;
+    color: #e6e6e6;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    background-color: #101f38;
+    border-radius: 8px;
+    flex-grow: 1;
+}
+
+.profile-info p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #e6e6e6;
+}
+
+.profile-info strong {
+    color: #e6e6e6;
+}
+
+.update-profile-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #e6e6e6;
+    background-color: #1e3a6b;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update-profile-btn:hover {
+    background-color: #357abd;
+}
+
+.applications-section {
+    padding: 30px;
+    background-color: #101f38;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.applications-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #e6e6e6;
+}
+
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.profile-table th,
+.profile-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.profile-table th {
+    background-color: #1e3a6b;
+    color: #e6e6e6;
+}
+
+.profile-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.profile-table tr:nth-child(odd) {
+    background-color: #e6e6e6;
+}
+
+.profile-table tr:hover {
+    background-color: #c7c7c7;
+}
+
+.program-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.status.accepted {
+    color: green;
+    font-weight: 600;
+}
+
+.status.pending {
+    color: orange;
+    font-weight: 600;
+}
+
+.status.rejected {
+    color: red;
+    font-weight: 600;
+}
+
+.listorder-download-icon {
+    cursor: pointer;
+    width: 50px;
+}
+
+.profile-section,
+.applications-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

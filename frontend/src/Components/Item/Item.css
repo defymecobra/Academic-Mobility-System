@@ -1,0 +1,22 @@
+.item {
+    width: 280px;
+    height: 280px;
+    margin-bottom: 50px;
+}
+
+.item img {
+    width: 280px;
+    height: 280px;
+}
+
+.item p {
+    margin: 6px 0px;
+    text-align: center;
+    font-weight: 600;
+    color: #e6e6e6;
+}
+
+.item:hover {
+    transform: scale(1.05);
+    transition: 0.6s;
+}

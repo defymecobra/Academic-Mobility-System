@@ -1,0 +1,91 @@
+.add-program-container {
+    width: 100%;
+    max-width: 800px;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background: #101f38;
+}
+
+.add-program-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #e6e6e6;
+}
+
+.add-program-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.add-program-field p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #e6e6e6;
+}
+
+.add-program-field input,
+.add-program-field textarea {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: 1px solid #e6e6e6;
+    font-size: 16px;
+    color: #e6e6e6;
+    font-weight: 600;
+    background: #1e3a6b;
+    outline: none;
+}
+
+.add-program-field textarea {
+    height: 100px;
+    resize: none;
+}
+
+.add-program-dates {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.add-program-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+}
+
+.add-program-thumbnail {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px dashed #e6e6e6;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.add-program-thumbnail:hover {
+    transform: scale(1.05);
+}
+
+.add-program-button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 6px;
+    background: #28a745;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.add-program-button:hover {
+    background: #218838;
+}

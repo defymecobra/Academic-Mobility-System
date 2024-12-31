@@ -1,0 +1,35 @@
+.hero {
+    height: 86vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-slide {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: absolute;
+    width: 100%;
+    transition: opacity 1s ease-in-out;
+}
+
+.hero-content {
+    text-align: left;
+    color: #e6e6e6;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.hero-content h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 20px;
+}
